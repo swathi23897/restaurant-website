@@ -1,0 +1,134 @@
+.filter-wrap li{
+    display: table-cell;
+    border-right:1px solid #edf6ff; 
+}
+.filter-wrap{
+    display:table;
+}
+
+.menudiv 
+{
+    box-shadow: 0px 10px 30px 0px rgba(153,153,153,0.2);
+    border-radius: 10px;
+    background-color:#fff;
+   /* font-size:90px; */
+    padding-bottom:'3%';
+    padding-inline-start: 0px;
+    height:'auto';
+    /* width: 100%; */
+    list-style: none;
+    border-radius: 10px;
+    
+    justify-content: ;
+    text-align: center;
+  
+}
+
+
+.menudiv .menucol
+{ 
+  /* border-radius: 10px; */
+  /* max-width: 300px; */
+  height:auto;
+  box-shadow:'0px 10px 30px 0px rgba(153,153,153,0.2)';
+  font-size: 15px;
+  color:black;
+  border-right: 1px solid #edf6ff;
+  /* text-align: -webkit-match-parent; */
+  padding: 2% 2% 2% 2%;
+  width:100%;
+ 
+ 
+  /* overflow:hidden; */
+
+ 
+  
+ 
+
+ 
+
+}
+
+
+.menucol:last-child
+{
+    border: none;
+}
+
+.menuitems{
+   
+    /* margin-top:30px; */
+    background-color:white;
+    box-shadow:'0px 10px 30px 0px rgba(153,153,153,0.9)';
+    /* padding:25px 10px 25px 20px; */
+    margin-bottom: 30px;
+    border-radius: 10px;
+    width: 10vw;
+    height:auto;
+    position: relative;
+     margin-right: 20px;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+
+/*flex columns*/
+
+/* * { box-sizing: border-box; } */
+
+.wrapper {
+  /* border: 5px solid rgb(86,98,110); */
+  /* border-radius: 5px; */
+  margin-bottom: 3em;
+}
+
+.wrapper  > div {
+ 
+  border-radius: 10px;
+  padding: 20px;
+
+  justify-content: space-between;
+  overflow: hidden;
+  box-shadow: 0px 10px 30px 0px rgba(153,153,153,0.2);
+  background-color:white;
+
+
+
+}
+.wrapper  > div  >p{
+
+font-weight:10;
+transition: all 0.5s ease;
+  
+  }
+.wrapper  > div:hover{
+   
+
+    transform:scale(1.1);
+  
+}
+
+
+
+.flex {
+   display: flex;
+  flex-wrap: wrap;
+}
+
+.flex > * {
+  flex: 1 1 250px;
+  margin: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+  /* padding: 10px 10px 0px 10px; */
+  overflow: hidden;
+ 
+}
+
+ 

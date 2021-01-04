@@ -1,0 +1,36 @@
+
+.wrappera {
+    /* border: 5px solid rgb(86,98,110); */
+    border-radius: 5px;
+    margin-bottom: 2em;
+  
+  }
+  
+  .wrappera > div {
+    /* background-color: rgb(89,161,175); */
+    /* border-radius: 5px; */
+    padding: 10px;
+    /* color: #fff; */
+    font-weight: bold;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+  }
+  .wrappera  > div:hover{
+   
+
+    transform:scale(1.1);
+  
+} 
+  
+  
+  
+  .flex {
+     display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flex > * {
+    flex: 1 1 250px;
+    margin: 10px;
+  }
+  * { box-sizing: border-box; }
